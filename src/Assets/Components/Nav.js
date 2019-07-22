@@ -1,10 +1,9 @@
 import React from 'react';
 import NavContainer from '../Images/nav-container.png';
-import { BrowserRouter as Router, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Nav() {
     return (
-        <Router>
         <div className="Nav">
             <img src={NavContainer} alt="nav container" className="NavContainerImg" />
             <i className="fas fa-cloud-sun-rain Logo"></i>
@@ -28,7 +27,6 @@ function Nav() {
                 </ul>
             </nav>
         </div>
-        </Router>
     );
 }
 

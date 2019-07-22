@@ -33,6 +33,13 @@ body {
         right: 60px;
         top: 100px;
 
+        @media screen and (max-width: 1300px) {
+            right: 30px;
+        }
+        @media screen and (max-width: 1300px) {
+            right: 10px;
+        }
+        
         ul {
             display: flex;
             align-items: center;
@@ -41,6 +48,10 @@ body {
                 font-size: 1.5rem;
                 margin: 10px;
                 padding: 5px;
+
+                @media screen and (max-width: 1300px) {
+                    font-size: 1.2rem;
+                }
             }
         }
     }
@@ -65,5 +76,14 @@ body {
     }
     @media screen and (max-height: 800px) {
         height: 900px;
+    }
+    @media screen and (max-width: 1500px) {
+        width: 1500px;
+    }
+    @media screen and (max-width: 1300px) {
+        width: 1300px;
+    }
+    @media screen and (max-width: 1100px) {
+        width: 1100px;
     }
 }
