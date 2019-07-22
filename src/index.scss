@@ -96,7 +96,17 @@ body {
 
     h1 {
         font-size: 3rem;
+        padding: 5px;
     }
+    h2 {
+        font-size: 2rem;
+        padding: 5px 25px;
+        color: lightgray;
+    }
+}
+.Temp {
+    display: flex;
+    align-items: center;
 }
 // loading gif icon
 .Loading {
