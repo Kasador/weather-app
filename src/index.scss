@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: $white;
 }
 // logo 
 .Logo {
@@ -86,4 +87,21 @@ body {
     @media screen and (max-width: 1100px) {
         width: 1100px;
     }
+}
+// display current weather
+.DisplayCurrent {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+// loading gif icon
+.Loading {
+    position: fixed;
+    top: 90px;
+    left: 70px;
+    width: 250px;
 }

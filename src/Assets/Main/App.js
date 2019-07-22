@@ -17,9 +17,9 @@ function App() {
     }, 900000);
     // useEffect to render out correct background image
     useEffect(() => {
-        if (currentTime >= 8) {
+        if (currentTime >= 8 && currentTime < 20) {
             document.body.style.backgroundImage = 'url(' + require('../Images/day.jpg') + ')';
-        } else if (currentTime >= 16) {
+        } else if (currentTime >= 20) {
             document.body.style.backgroundImage = 'url(' + require('../Images/night.jpg') + ')';
         } else {
             document.body.style.backgroundImage = 'url(' + require('../Images/night.jpg') + ')';
