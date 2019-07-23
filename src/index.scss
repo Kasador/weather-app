@@ -108,6 +108,15 @@ body {
     display: flex;
     align-items: center;
 }
+.OtherData {
+    font-size: 1.5rem;
+    padding: 5px 20px;
+    color: lightgray;
+    
+    h3 {
+        padding: 5px;
+    }
+}
 // loading gif icon
 .Loading {
     position: fixed;
