@@ -117,6 +117,17 @@ body {
         padding: 5px;
     }
 }
+.LocationBtn {
+    position: fixed;
+    top: 35px;
+    right: 150px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: $white;
+    background-color: $primary;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #ccc;
+}
 // loading gif icon
 .Loading {
     position: fixed;

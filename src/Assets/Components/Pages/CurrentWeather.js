@@ -38,11 +38,15 @@ function CurrentWeather() {
             console.log(error);
         }
     }
+    const turnOnLocation = () => {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }
 
     return (
         <div className="CurrentWeather">
             {!coords.isLoaded ? <img src={Loading} alt="loading" className="Loading" /> : null}
             <DisplayCurrent info={coords.data} />
+            <button onClick={turnOnLocation} className="LocationBtn">Turn On Location</button>
         </div>
     );
 }
